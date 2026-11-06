@@ -1,0 +1,16 @@
+name: Documentation
+description: Missing or incorrect documentation
+title: "[Docs]: "
+body:
+  - type: input
+    id: path
+    attributes:
+      label: Documentation URL or path
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Proposed correction
+    validations:
+      required: true

@@ -1,0 +1,27 @@
+name: Bug report
+description: Report a reproducible issue
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Search existing issues first. Security vulnerabilities should be reported privately, not here."
+  - type: textarea
+    id: issue
+    attributes:
+      label: Observed and expected result
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version / commit / platform
+  - type: textarea
+    id: logs
+    attributes:
+      label: Redacted logs, screenshots or other context

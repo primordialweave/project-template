@@ -1,0 +1,17 @@
+# Python local tooling
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/*.log
+
+# Project-specific build and secret patterns should be reviewed before release.
+.env
+.env.*
+!.env.example
